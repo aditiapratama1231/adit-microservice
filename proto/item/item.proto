@@ -1,0 +1,21 @@
+syntax = "proto3";
+package pb;
+
+service Items {
+    rpc ShowItemDetail (ShowItemDetailRequest) returns (ShowItemDetailResponse);
+}
+
+message Item {
+    int64 ID = 1;
+    string title = 2;
+    string description = 3;
+}
+
+message ShowItemDetailRequest {
+    int64 item_id = 1;
+}
+
+message ShowItemDetailResponse {
+    Item data = 1;
+    string message = 2;
+}
