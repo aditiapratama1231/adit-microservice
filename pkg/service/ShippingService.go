@@ -3,7 +3,8 @@ package service
 import (
 	"github.com/jinzhu/gorm"
 
-	models "github.com/aditiapratama1231/shipping-microservice/database/models"
+	models "github.com/aditiapratama1231/adit-microservice/database/models/shipping"
+	grpc "github.com/aditiapratama1231/shipping-microservice/pkg/request/grpc"
 	payload "github.com/aditiapratama1231/shipping-microservice/pkg/request/payload"
 )
 
@@ -25,6 +26,14 @@ func (shippingService) GetShippings() payload.GetShippingResponse {
 	var shippings []models.Shipping
 
 	query.Find(&shippings)
+
+	for i := range shippings {
+		itm, _ := grpc.ShowItemDetail(int64(shippings[i].ItemID))
+		item := itm.GetData()
+		shippings[i].Item.ID = uint(item.ID)
+		shippings[i].Item.Title = item.Title
+		shippings[i].Item.Description = item.Description
+	}
 
 	return payload.GetShippingResponse{
 		Data: shippings,
