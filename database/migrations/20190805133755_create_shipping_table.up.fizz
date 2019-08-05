@@ -1,0 +1,9 @@
+create_table("shippings") {
+    t.Column("id", "integer", {primary: true})
+    t.Column("shipping_no", "string")
+    t.Column("customer_note", "string")
+    t.Column("status", "string")
+    t.Column("item_id", "integer")
+    t.Column("deleted_at", "datetime", {"null":true})
+    t.Timestamps()
+}
