@@ -8,5 +8,5 @@ type Shipping struct {
 	CustomerNote string           `gorm:"customer_note" json:"customer_note"`
 	Status       string           `gorm:"status" json:"status"`
 	ItemID       int32            `gorm:"item_id" json:"item_id"`
-	Item         []itemModel.Item `json:"items"`
+	Items        []itemModel.Item `json:"items"`
 }
