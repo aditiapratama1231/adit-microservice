@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	request "github.com/aditiapratama1231/shipping-service/pkg/request/http"
+	request "github.com/aditiapratama1231/shipping-microservice/pkg/request/http"
 	httptransport "github.com/go-kit/kit/transport/http"
 
-	"github.com/aditiapratama1231/shipping-service/pkg/endpoint"
+	"github.com/aditiapratama1231/shipping-microservice/pkg/endpoint"
 	"github.com/gorilla/mux"
 )
 

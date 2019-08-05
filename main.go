@@ -10,8 +10,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/aditiapratama1231/shipping-service/pkg/cmd"
-	transport "github.com/aditiapratama1231/shipping-service/pkg/transport"
+	"github.com/aditiapratama1231/shipping-microservice/pkg/cmd"
+	transport "github.com/aditiapratama1231/shipping-microservice/pkg/transport"
 
 	"github.com/gorilla/handlers"
 	"github.com/joho/godotenv"

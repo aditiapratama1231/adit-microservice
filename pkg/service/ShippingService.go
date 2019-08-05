@@ -3,8 +3,8 @@ package service
 import (
 	"github.com/jinzhu/gorm"
 
-	models "github.com/aditiapratama1231/shipping-service/database/models"
-	payload "github.com/aditiapratama1231/shipping-service/pkg/request/payload"
+	models "github.com/aditiapratama1231/shipping-microservice/database/models"
+	payload "github.com/aditiapratama1231/shipping-microservice/pkg/request/payload"
 )
 
 type ShippingService interface {

@@ -46,6 +46,8 @@ github.com/Shopify/sarama v1.23.1/go.mod h1:XLH1GYJnLVE0XCr6KdJGVJRTwY30moWNJ4sE
 github.com/Shopify/toxiproxy v2.1.4+incompatible/go.mod h1:OXgGpZ6Cli1/URJOF1DMxUHB2q5Ap20/P/eIdh4G0pI=
 github.com/aditiapratama1231/item-service v0.0.0-20190805131616-25e20ec05584 h1:YpMQPGExY5Ds8EPQjuig96Dkx+v83ysUWztDaVaB0uU=
 github.com/aditiapratama1231/item-service v0.0.0-20190805131616-25e20ec05584/go.mod h1:zbWHvsc+esLM1FLjctgvbTyW+PGaiK5ermTEYYbnUZk=
+github.com/aditiapratama1231/shipping-microservice v0.0.0-20190716074143-866a82d66861 h1:uOJ3xfEFCMrASsTmAFLfLd555L9V6vBk/Ewe7rQkEi8=
+github.com/aditiapratama1231/shipping-service v0.0.0-20190716074143-866a82d66861 h1:uOJ3xfEFCMrASsTmAFLfLd555L9V6vBk/Ewe7rQkEi8=
 github.com/aditiapratama1231/supplier-dashboard v0.0.0-20190716105258-a54e190feb9f/go.mod h1:e6WSOPJkvFrJtPdvIq6OjioqeVLT/wYBI6aoPiDt4YE=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=

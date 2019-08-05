@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	payload "github.com/aditiapratama1231/shipping-service/pkg/request/payload"
+	payload "github.com/aditiapratama1231/shipping-microservice/pkg/request/payload"
 )
 
 func DecodeGetShippingResponse(ctx context.Context, r *http.Request) (interface{}, error) {
